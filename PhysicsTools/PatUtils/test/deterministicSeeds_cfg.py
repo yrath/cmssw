@@ -4,7 +4,7 @@ import FWCore.ParameterSet.Config as cms
 from FWCore.ParameterSet.VarParsing import VarParsing
 
 options = VarParsing("python")
-options.setDefault("inputFiles", "root://xrootd-cms.infn.it//store/mc/RunIIFall17MiniAOD/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/94X_mc2017_realistic_v10-v1/00000/3C91F22D-C30A-E811-AC84-02163E019C27.root")
+options.setDefault("inputFiles", "root://xrootd-cms.infn.it//store/mc/RunIIAutumn18MiniAOD/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v3/90000/335434D2-B405-994B-B5A1-B5BDF3065933.root")
 options.setDefault("outputFile", "output.root")
 options.setDefault("maxEvents", 10)
 options.parseArguments()
